@@ -1,0 +1,29 @@
+{
+  "name": "toxhtml",
+  "version": "0.1.5",
+  "description": "Convert standard HTML to XHTML.",
+  "main": "td2xml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "toxhtml": "./toxhtml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steenk/toxml.git"
+  },
+  "dependencies": {
+    "jsdom": ">=9.6.0",
+    "tripledollar": ">=1.3.0"
+  },
+  "keywords": [
+    "xhtml"
+  ],
+  "author": "steenk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steenk/toxml/issues"
+  },
+  "homepage": "https://github.com/steenk/toxml#readme"
+}
