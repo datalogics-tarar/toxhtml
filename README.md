@@ -1,6 +1,6 @@
 # toxhtml
 
-A simple script for converting HTML files to XHTML on the command line.
+A simple script for converting HTML files to XHTML on the command line. It has a long dependency list, since it uses __jsdom__.
 
 To install:
 

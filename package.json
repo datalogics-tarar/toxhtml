@@ -1,6 +1,6 @@
 {
   "name": "toxhtml",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Convert standard HTML to XHTML.",
   "main": "td2xml.js",
   "scripts": {

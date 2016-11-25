@@ -21,7 +21,12 @@ jsdom.env('',
               if (err) return;
               div.innerHTML = stream.toString();
               var container = $$$.structify($$$.query('.container'));
-              console.log(td2xml.parse(container[1]));
+              container.shift();
+              for (var node of container) {
+                if (Array.isArray(node)) {
+                  console.log(td2xml.parse(node));
+                }
+              }
             });
          });
     }
